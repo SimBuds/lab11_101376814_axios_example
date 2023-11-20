@@ -1,0 +1,55 @@
+/* PersonList.css */
+
+.person-list {
+  margin: 20px;
+}
+
+.person-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 4px;
+  background-color: #1c1c1c; /* Darker background for each row */
+  color: #fff; /* Light text */
+}
+
+.person-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.person-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.person-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.person-email {
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+
+.person-phone {
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.person-address {
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.person-username {
+  font-size: 0.9em;
+  margin-top: 5px;
+}
